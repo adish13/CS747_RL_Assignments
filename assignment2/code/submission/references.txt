@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/38237449/how-to-disable-the-calculations-log-of-pulp
+https://www.geeksforgeeks.org/python-linear-programming-in-pulp/
+https://docs.python.org/3/library/argparse.html
+https://sites.cs.ucsb.edu/~yuxiangw/classes/RLCourse-2021Spring/Lectures/scribe_MDP1.pdf

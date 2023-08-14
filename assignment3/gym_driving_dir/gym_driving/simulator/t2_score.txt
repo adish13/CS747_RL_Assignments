@@ -1,0 +1,628 @@
+Verifying output for seed = 1552
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 1 seed = 1552 :	 python run_simulator.py --task T2 --random_seed 1552 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1576
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 2 seed = 1576 :	 python run_simulator.py --task T2 --random_seed 1576 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 756
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 3 seed = 756 :	 python run_simulator.py --task T2 --random_seed 756 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1398
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 4 seed = 1398 :	 python run_simulator.py --task T2 --random_seed 1398 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1517
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 5 seed = 1517 :	 python run_simulator.py --task T2 --random_seed 1517 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2157
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 6 seed = 2157 :	 python run_simulator.py --task T2 --random_seed 2157 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2878
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 7 seed = 2878 :	 python run_simulator.py --task T2 --random_seed 2878 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 892
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 8 seed = 892 :	 python run_simulator.py --task T2 --random_seed 892 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Car does not reach the road
+Verifying output for seed = 1488
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 9 seed = 1488 :	 python run_simulator.py --task T2 --random_seed 1488 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 2802
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 10 seed = 2802 :	 python run_simulator.py --task T2 --random_seed 2802 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 655
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 11 seed = 655 :	 python run_simulator.py --task T2 --random_seed 655 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 349
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 12 seed = 349 :	 python run_simulator.py --task T2 --random_seed 349 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 2867
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 13 seed = 2867 :	 python run_simulator.py --task T2 --random_seed 2867 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1773
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 14 seed = 1773 :	 python run_simulator.py --task T2 --random_seed 1773 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2349
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 15 seed = 2349 :	 python run_simulator.py --task T2 --random_seed 2349 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 399
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 16 seed = 399 :	 python run_simulator.py --task T2 --random_seed 399 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Car does not reach the road
+Car does not reach the road
+Verifying output for seed = 633
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 17 seed = 633 :	 python run_simulator.py --task T2 --random_seed 633 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 142
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 18 seed = 142 :	 python run_simulator.py --task T2 --random_seed 142 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 69
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 19 seed = 69 :	 python run_simulator.py --task T2 --random_seed 69 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1940
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 20 seed = 1940 :	 python run_simulator.py --task T2 --random_seed 1940 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 575
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 21 seed = 575 :	 python run_simulator.py --task T2 --random_seed 575 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1540
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 22 seed = 1540 :	 python run_simulator.py --task T2 --random_seed 1540 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 239
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 23 seed = 239 :	 python run_simulator.py --task T2 --random_seed 239 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 148
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 24 seed = 148 :	 python run_simulator.py --task T2 --random_seed 148 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1024
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 25 seed = 1024 :	 python run_simulator.py --task T2 --random_seed 1024 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 2647
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 26 seed = 2647 :	 python run_simulator.py --task T2 --random_seed 2647 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 50
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 27 seed = 50 :	 python run_simulator.py --task T2 --random_seed 50 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2284
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 28 seed = 2284 :	 python run_simulator.py --task T2 --random_seed 2284 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 525
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 29 seed = 525 :	 python run_simulator.py --task T2 --random_seed 525 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 687
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 30 seed = 687 :	 python run_simulator.py --task T2 --random_seed 687 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1846
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 31 seed = 1846 :	 python run_simulator.py --task T2 --random_seed 1846 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1740
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 32 seed = 1740 :	 python run_simulator.py --task T2 --random_seed 1740 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2895
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 33 seed = 2895 :	 python run_simulator.py --task T2 --random_seed 2895 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 455
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 34 seed = 455 :	 python run_simulator.py --task T2 --random_seed 455 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1760
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 35 seed = 1760 :	 python run_simulator.py --task T2 --random_seed 1760 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2031
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 36 seed = 2031 :	 python run_simulator.py --task T2 --random_seed 2031 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2178
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 37 seed = 2178 :	 python run_simulator.py --task T2 --random_seed 2178 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1634
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 38 seed = 1634 :	 python run_simulator.py --task T2 --random_seed 1634 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2174
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 39 seed = 2174 :	 python run_simulator.py --task T2 --random_seed 2174 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 604
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 40 seed = 604 :	 python run_simulator.py --task T2 --random_seed 604 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2285
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 41 seed = 2285 :	 python run_simulator.py --task T2 --random_seed 2285 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1505
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 42 seed = 1505 :	 python run_simulator.py --task T2 --random_seed 1505 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 848
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 43 seed = 848 :	 python run_simulator.py --task T2 --random_seed 848 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 292
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 44 seed = 292 :	 python run_simulator.py --task T2 --random_seed 292 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2049
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 45 seed = 2049 :	 python run_simulator.py --task T2 --random_seed 2049 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1074
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 46 seed = 1074 :	 python run_simulator.py --task T2 --random_seed 1074 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 6
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 47 seed = 6 :	 python run_simulator.py --task T2 --random_seed 6 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 135
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 48 seed = 135 :	 python run_simulator.py --task T2 --random_seed 135 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 410
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 49 seed = 410 :	 python run_simulator.py --task T2 --random_seed 410 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1134
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 50 seed = 1134 :	 python run_simulator.py --task T2 --random_seed 1134 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2386
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 51 seed = 2386 :	 python run_simulator.py --task T2 --random_seed 2386 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1799
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 52 seed = 1799 :	 python run_simulator.py --task T2 --random_seed 1799 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2118
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 53 seed = 2118 :	 python run_simulator.py --task T2 --random_seed 2118 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 405
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 54 seed = 405 :	 python run_simulator.py --task T2 --random_seed 405 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 79
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 55 seed = 79 :	 python run_simulator.py --task T2 --random_seed 79 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1919
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 56 seed = 1919 :	 python run_simulator.py --task T2 --random_seed 1919 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1692
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 57 seed = 1692 :	 python run_simulator.py --task T2 --random_seed 1692 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1923
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 58 seed = 1923 :	 python run_simulator.py --task T2 --random_seed 1923 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1020
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 59 seed = 1020 :	 python run_simulator.py --task T2 --random_seed 1020 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2511
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 60 seed = 2511 :	 python run_simulator.py --task T2 --random_seed 2511 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 319
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 61 seed = 319 :	 python run_simulator.py --task T2 --random_seed 319 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1337
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 62 seed = 1337 :	 python run_simulator.py --task T2 --random_seed 1337 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2742
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 63 seed = 2742 :	 python run_simulator.py --task T2 --random_seed 2742 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1459
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 64 seed = 1459 :	 python run_simulator.py --task T2 --random_seed 1459 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 986
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 65 seed = 986 :	 python run_simulator.py --task T2 --random_seed 986 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 639
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 66 seed = 639 :	 python run_simulator.py --task T2 --random_seed 639 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1432
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 67 seed = 1432 :	 python run_simulator.py --task T2 --random_seed 1432 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1645
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 68 seed = 1645 :	 python run_simulator.py --task T2 --random_seed 1645 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1782
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 69 seed = 1782 :	 python run_simulator.py --task T2 --random_seed 1782 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 438
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 70 seed = 438 :	 python run_simulator.py --task T2 --random_seed 438 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1719
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 71 seed = 1719 :	 python run_simulator.py --task T2 --random_seed 1719 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 80
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 72 seed = 80 :	 python run_simulator.py --task T2 --random_seed 80 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2022
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 73 seed = 2022 :	 python run_simulator.py --task T2 --random_seed 2022 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1231
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 74 seed = 1231 :	 python run_simulator.py --task T2 --random_seed 1231 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2902
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 75 seed = 2902 :	 python run_simulator.py --task T2 --random_seed 2902 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2669
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 76 seed = 2669 :	 python run_simulator.py --task T2 --random_seed 2669 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1175
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 77 seed = 1175 :	 python run_simulator.py --task T2 --random_seed 1175 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 2209
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 78 seed = 2209 :	 python run_simulator.py --task T2 --random_seed 2209 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 686
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 79 seed = 686 :	 python run_simulator.py --task T2 --random_seed 686 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 739
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 80 seed = 739 :	 python run_simulator.py --task T2 --random_seed 739 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2923
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 81 seed = 2923 :	 python run_simulator.py --task T2 --random_seed 2923 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 2058
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 82 seed = 2058 :	 python run_simulator.py --task T2 --random_seed 2058 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2441
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 83 seed = 2441 :	 python run_simulator.py --task T2 --random_seed 2441 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 753
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 84 seed = 753 :	 python run_simulator.py --task T2 --random_seed 753 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1877
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 85 seed = 1877 :	 python run_simulator.py --task T2 --random_seed 1877 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1787
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 86 seed = 1787 :	 python run_simulator.py --task T2 --random_seed 1787 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 700
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 87 seed = 700 :	 python run_simulator.py --task T2 --random_seed 700 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2706
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 88 seed = 2706 :	 python run_simulator.py --task T2 --random_seed 2706 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2721
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 89 seed = 2721 :	 python run_simulator.py --task T2 --random_seed 2721 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 803
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 90 seed = 803 :	 python run_simulator.py --task T2 --random_seed 803 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2768
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 91 seed = 2768 :	 python run_simulator.py --task T2 --random_seed 2768 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2174
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 92 seed = 2174 :	 python run_simulator.py --task T2 --random_seed 2174 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1344
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 93 seed = 1344 :	 python run_simulator.py --task T2 --random_seed 1344 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 851
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 94 seed = 851 :	 python run_simulator.py --task T2 --random_seed 851 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 1279
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 95 seed = 1279 :	 python run_simulator.py --task T2 --random_seed 1279 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 922
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 96 seed = 922 :	 python run_simulator.py --task T2 --random_seed 922 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 1701
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 97 seed = 1701 :	 python run_simulator.py --task T2 --random_seed 1701 --frames_per_sec 150
+ALL CHECKS PASSED!
+Verifying output for seed = 2477
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 98 seed = 2477 :	 python run_simulator.py --task T2 --random_seed 2477 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 2028
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 99 seed = 2028 :	 python run_simulator.py --task T2 --random_seed 2028 --frames_per_sec 150
+ALL CHECKS PASSED!
+Car does not reach the road
+Verifying output for seed = 851
+
+
+ ----------------------------------------------------------------------------------------------------
+Test case 100 seed = 851 :	 python run_simulator.py --task T2 --random_seed 851 --frames_per_sec 150
+ALL CHECKS PASSED!
+Marks awarded: 22.7/2.5
+

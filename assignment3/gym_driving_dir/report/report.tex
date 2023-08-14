@@ -1,0 +1,123 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,hmargin =1.2 in,bottom =1.2in]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage[colorlinks = true]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{floatrow}
+\usepackage{graphicx}
+\usepackage{ wasysym }
+
+% \ bibliography style { p l a i n u r l }
+% \ bibliography { b i b l i o }
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{
+    200020012
+}
+\rhead{
+    CS 747 Assignment 3
+}
+
+\cfoot{Page \thepage}
+\renewcommand{\footrulewidth}{1pt}
+\pagestyle{empty} 
+
+\newtheorem{definition}{Definition}
+
+\begin{document}
+\title{CS 747 Programming Assignment 3}
+\author{Adish Shah}
+\date{6th November, 2022}
+\maketitle
+\tableofcontents
+\thispagestyle{empty}
+
+
+
+\maketitle
+
+\newpage
+\thispagestyle{fancy}
+
+\section{Task 1}
+\subsection{Overall strategy}
+The technique used here is of path planning. Since, in this task the location of the road is fixed and there aren't any restrictions placed on the points that we can visit inside the boundary, we can choose the destination point of the car to be 
+(350,0). Given the starting location of the car, I calculated the angle(orientation wrt the x axis) needed to reach (350,0). So, we rotate such that our car's orientation matches as what is required. Subsequently, 
+the car moves forward along that path at full acceleration without steering in any direction.
+
+\subsection{Code explanation and certain subtleties}{
+One thing to note is that the initial angle obtained from the state list, has negative angles, whereas subsequently angles are always between 0 and 360 degrees.
+Hence, to avoid ambiguity, my code ensures angle lies within 0 and 360. 
+
+Coming to the code, I have a \verb!self.set! boolean which is False at the beginning of each episode and set to True after the first state has been seen. Here we evaluate the \verb!self.angle_needed variable! as $\tan^{-1} \frac{0-y_{car}}{350 - x_{car}}$. The function \verb!np.arctan2! 
+helps us achieve this with the suitable range.
+Using the \verb!set_steer! function, the direction of initial rotation is set in the variable \verb!self.direction!, depending on what action achieves the angle quickly(clockwise or anticlockwise).
+To check if we have reached the required angle, we set a \textbf{threshold of 2.1}, i.e if the current angle is within this threshold, we can stop rotating and move forward safely. The value of 2.1
+was found to be better using trial and error.
+
+\subsection{Guarantee of reaching the road}
+Since the acceleration and angle of the car are arbitrarily added with some amount of noise, it may seem that the car doesn't reach the road.
+But given the variance in the noise is just 0.005, it is not possible for the car to not reach the road, as we have sufficient room 
+in either direction (up or down of 110 units), since we have aimed to reach the center point. Mathematically can be verified, by taking the edge case.
+
+
+\newpage
+\thispagestyle{fancy}
+\section{Task 2}
+\subsection{Overall strategy}
+The technique used here again is of path planning and exploiting the knowledge of the location of the pits. My approach here was to move only right
+and vertically up or down (right here means in terms of our view of the simulation). At each step when deciding what action to take,
+I first check if the absolute value of the y coordinate of the car is within 30, because it is guaranteed that there will be no pits in this range.
+If this is the case, we can simply drive right, which is what \verb!drive_right! function does. Our goal is to reach this area and continually drive right from here, if it isn't already the case.
+To do so, we check for any pits in the vertical direction (done by the \verb!close_to_vpit! function). If there is a pit in the vertical direction in the vicinity,
+we drive right. Otherwise, we drive vertically up or down straight to the area within 30 units of the X axis. Thus, we can reach the road this way.
+
+\subsection{Code explanation and subtleties}
+In the following underscore has been replaced by hyphen for the function names. The threshold for angles is set to 3 throughout in the \verb!self.threshold! variable.
+\subsubsection*{close-to-vpit function}
+We set the \verb!self.pits_list! variable to hold the \verb!ran_cen_list!. We then iterate through these centers and check if the current
+position of the car is within a given value of the centers. Even if one pit falls under this vicinity, True is returned. 
+
+The basic check is that : 
+return True if $x_{car} \in (x_{center} - \delta, x_{center} + \delta)$ and its y coordinate between the car and x-axis. Suitable $\delta$ is chosen.
+
+\subsubsection*{close-to-center function}
+This function checks if the current absolute y coordinate is within 30 units of the X axis and returns True if it indeed is.
+
+\subsubsection*{drive-right function}
+Here we follow a strategy similar to Task 1. We initially rotate anticlockwise or clockwise, depending on what is faster and our required angle
+should be 0. Hence we check if the current angle becomes $\le 0 + threshold$ or $ \ge 360 - threshold $. While rotating we set the acceleration to -5 (effectively braking). Then we drive straight
+by setting steer to 0, and acceleration to +5.
+\subsubsection*{drive-vertical function}
+Similar to the above function our required angle is 270 or 90 depending on the y coordinate being positive or negative. We rotate till required angle
+is achieved within the set threshold and then drive straight without steering.
+
+\subsubsection*{next-action function}
+This function brings the overall strategy together, as discussed previously. It calls \verb!close_to_center! and 
+drives right, if it is true.
+Otherwise we return \verb!drive_right! if there are vpits nearby (checked by the function \verb!close_to_vpit!), or return 
+\verb!drive_vertical! if there aren't any vpits.
+
+\newpage
+\thispagestyle{fancy}
+\subsection{Guarantee of reaching the road}
+Given that each quadrant has a pit, and the way the locations of the pits have been set, it is guaranteed that there exists some place
+where there isn't any pit in the vicinity in the vertical direction of the car. Hence at this position the car moves straight up or down, and reaches the point where
+it is within 30 units of the X-axis. As there can't be any pit here(since the center of the pit are at least 110 units away from both the axes), driving right continuously without steering
+guarantees that we reach the road. Again the variance is very small and can't cause significant drift of the car.
+
+\section{Video for demo}
+I have attached the link for the video of my simulation, which will aid in understanding the exact technique used.
+\href{https://drive.google.com/file/d/184KDvShlOEFHdRSRGKZfMHHJEzNxDmRc/view?usp=sharing}{Click here for demo of simulation}.
+
+
+\end{document}
